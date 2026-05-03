@@ -1,0 +1,4 @@
+# Add one allowed program name or full path per line.
+# Examples:
+# notepad.exe
+# C:\Windows\System32\notepad.exe

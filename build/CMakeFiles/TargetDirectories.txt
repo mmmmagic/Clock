@@ -1,0 +1,4 @@
+E:/Desktop/Projects/Clock/build/CMakeFiles/FocusClock.dir
+E:/Desktop/Projects/Clock/build/CMakeFiles/CopyWhitelist.dir
+E:/Desktop/Projects/Clock/build/CMakeFiles/edit_cache.dir
+E:/Desktop/Projects/Clock/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,2468 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      The system is: Windows - 10.0.26200 - AMD64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeMinGWFindMake.cmake:5 (find_program)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_MAKE_PROGRAM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "mingw32-make.exe"
+    candidate_directories:
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/MinGW/bin/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+      - "/REGISTRY-NOTFOUND/bin/"
+      - "c:/MinGW/bin/"
+      - "/MinGW/bin/"
+      - "/REGISTRY-NOTFOUND/MinGW/bin/"
+    searched_directories:
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/mingw32-make.exe.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/mingw32-make.exe"
+      - "D:/VM/bin/mingw32-make.exe.com"
+      - "D:/VM/bin/mingw32-make.exe"
+      - "C:/Windows/System32/mingw32-make.exe.com"
+      - "C:/Windows/System32/mingw32-make.exe"
+      - "C:/Windows/mingw32-make.exe.com"
+      - "C:/Windows/mingw32-make.exe"
+      - "C:/Windows/System32/wbem/mingw32-make.exe.com"
+      - "C:/Windows/System32/wbem/mingw32-make.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/mingw32-make.exe"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe.com"
+      - "C:/Windows/System32/OpenSSH/mingw32-make.exe"
+      - "C:/Program Files/dotnet/mingw32-make.exe.com"
+      - "C:/Program Files/dotnet/mingw32-make.exe"
+      - "C:/gradle-8.8/bin/mingw32-make.exe.com"
+      - "C:/gradle-8.8/bin/mingw32-make.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/mingw32-make.exe.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/mingw32-make.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mingw32-make.exe.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/mingw32-make.exe"
+      - "D:/nvm/nvm/mingw32-make.exe.com"
+      - "D:/nvm/nvm/mingw32-make.exe"
+      - "C:/nvm4w/nodejs/mingw32-make.exe.com"
+      - "C:/nvm4w/nodejs/mingw32-make.exe"
+      - "D:/MinGW/bin/mingw32-make.exe.com"
+    found: "D:/MinGW/bin/mingw32-make.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompiler.cmake:63 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:69 (_cmake_find_compiler)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER"
+    description: "CXX compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: false
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "c++"
+      - "g++"
+      - "cl"
+      - "bcc"
+      - "icx"
+      - "clang++"
+    candidate_directories:
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/MinGW/bin/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/c++.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/c++.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/c++"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/g++.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/g++.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/g++"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/cl.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/cl.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/cl"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/bcc.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/bcc.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/bcc"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/icx.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/icx.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/icx"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/clang++.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/clang++.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/clang++"
+      - "D:/VM/bin/c++.com"
+      - "D:/VM/bin/c++.exe"
+      - "D:/VM/bin/c++"
+      - "D:/VM/bin/g++.com"
+      - "D:/VM/bin/g++.exe"
+      - "D:/VM/bin/g++"
+      - "D:/VM/bin/cl.com"
+      - "D:/VM/bin/cl.exe"
+      - "D:/VM/bin/cl"
+      - "D:/VM/bin/bcc.com"
+      - "D:/VM/bin/bcc.exe"
+      - "D:/VM/bin/bcc"
+      - "D:/VM/bin/icx.com"
+      - "D:/VM/bin/icx.exe"
+      - "D:/VM/bin/icx"
+      - "D:/VM/bin/clang++.com"
+      - "D:/VM/bin/clang++.exe"
+      - "D:/VM/bin/clang++"
+      - "C:/Windows/System32/c++.com"
+      - "C:/Windows/System32/c++.exe"
+      - "C:/Windows/System32/c++"
+      - "C:/Windows/System32/g++.com"
+      - "C:/Windows/System32/g++.exe"
+      - "C:/Windows/System32/g++"
+      - "C:/Windows/System32/cl.com"
+      - "C:/Windows/System32/cl.exe"
+      - "C:/Windows/System32/cl"
+      - "C:/Windows/System32/bcc.com"
+      - "C:/Windows/System32/bcc.exe"
+      - "C:/Windows/System32/bcc"
+      - "C:/Windows/System32/icx.com"
+      - "C:/Windows/System32/icx.exe"
+      - "C:/Windows/System32/icx"
+      - "C:/Windows/System32/clang++.com"
+      - "C:/Windows/System32/clang++.exe"
+      - "C:/Windows/System32/clang++"
+      - "C:/Windows/c++.com"
+      - "C:/Windows/c++.exe"
+      - "C:/Windows/c++"
+      - "C:/Windows/g++.com"
+      - "C:/Windows/g++.exe"
+      - "C:/Windows/g++"
+      - "C:/Windows/cl.com"
+      - "C:/Windows/cl.exe"
+      - "C:/Windows/cl"
+      - "C:/Windows/bcc.com"
+      - "C:/Windows/bcc.exe"
+      - "C:/Windows/bcc"
+      - "C:/Windows/icx.com"
+      - "C:/Windows/icx.exe"
+      - "C:/Windows/icx"
+      - "C:/Windows/clang++.com"
+      - "C:/Windows/clang++.exe"
+      - "C:/Windows/clang++"
+      - "C:/Windows/System32/wbem/c++.com"
+      - "C:/Windows/System32/wbem/c++.exe"
+      - "C:/Windows/System32/wbem/c++"
+      - "C:/Windows/System32/wbem/g++.com"
+      - "C:/Windows/System32/wbem/g++.exe"
+      - "C:/Windows/System32/wbem/g++"
+      - "C:/Windows/System32/wbem/cl.com"
+      - "C:/Windows/System32/wbem/cl.exe"
+      - "C:/Windows/System32/wbem/cl"
+      - "C:/Windows/System32/wbem/bcc.com"
+      - "C:/Windows/System32/wbem/bcc.exe"
+      - "C:/Windows/System32/wbem/bcc"
+      - "C:/Windows/System32/wbem/icx.com"
+      - "C:/Windows/System32/wbem/icx.exe"
+      - "C:/Windows/System32/wbem/icx"
+      - "C:/Windows/System32/wbem/clang++.com"
+      - "C:/Windows/System32/wbem/clang++.exe"
+      - "C:/Windows/System32/wbem/clang++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/c++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/g++"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/cl"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/bcc"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/icx"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/clang++"
+      - "C:/Windows/System32/OpenSSH/c++.com"
+      - "C:/Windows/System32/OpenSSH/c++.exe"
+      - "C:/Windows/System32/OpenSSH/c++"
+      - "C:/Windows/System32/OpenSSH/g++.com"
+      - "C:/Windows/System32/OpenSSH/g++.exe"
+      - "C:/Windows/System32/OpenSSH/g++"
+      - "C:/Windows/System32/OpenSSH/cl.com"
+      - "C:/Windows/System32/OpenSSH/cl.exe"
+      - "C:/Windows/System32/OpenSSH/cl"
+      - "C:/Windows/System32/OpenSSH/bcc.com"
+      - "C:/Windows/System32/OpenSSH/bcc.exe"
+      - "C:/Windows/System32/OpenSSH/bcc"
+      - "C:/Windows/System32/OpenSSH/icx.com"
+      - "C:/Windows/System32/OpenSSH/icx.exe"
+      - "C:/Windows/System32/OpenSSH/icx"
+      - "C:/Windows/System32/OpenSSH/clang++.com"
+      - "C:/Windows/System32/OpenSSH/clang++.exe"
+      - "C:/Windows/System32/OpenSSH/clang++"
+      - "C:/Program Files/dotnet/c++.com"
+      - "C:/Program Files/dotnet/c++.exe"
+      - "C:/Program Files/dotnet/c++"
+      - "C:/Program Files/dotnet/g++.com"
+      - "C:/Program Files/dotnet/g++.exe"
+      - "C:/Program Files/dotnet/g++"
+      - "C:/Program Files/dotnet/cl.com"
+      - "C:/Program Files/dotnet/cl.exe"
+      - "C:/Program Files/dotnet/cl"
+      - "C:/Program Files/dotnet/bcc.com"
+      - "C:/Program Files/dotnet/bcc.exe"
+      - "C:/Program Files/dotnet/bcc"
+      - "C:/Program Files/dotnet/icx.com"
+      - "C:/Program Files/dotnet/icx.exe"
+      - "C:/Program Files/dotnet/icx"
+      - "C:/Program Files/dotnet/clang++.com"
+      - "C:/Program Files/dotnet/clang++.exe"
+      - "C:/Program Files/dotnet/clang++"
+      - "C:/gradle-8.8/bin/c++.com"
+      - "C:/gradle-8.8/bin/c++.exe"
+      - "C:/gradle-8.8/bin/c++"
+      - "C:/gradle-8.8/bin/g++.com"
+      - "C:/gradle-8.8/bin/g++.exe"
+      - "C:/gradle-8.8/bin/g++"
+      - "C:/gradle-8.8/bin/cl.com"
+      - "C:/gradle-8.8/bin/cl.exe"
+      - "C:/gradle-8.8/bin/cl"
+      - "C:/gradle-8.8/bin/bcc.com"
+      - "C:/gradle-8.8/bin/bcc.exe"
+      - "C:/gradle-8.8/bin/bcc"
+      - "C:/gradle-8.8/bin/icx.com"
+      - "C:/gradle-8.8/bin/icx.exe"
+      - "C:/gradle-8.8/bin/icx"
+      - "C:/gradle-8.8/bin/clang++.com"
+      - "C:/gradle-8.8/bin/clang++.exe"
+      - "C:/gradle-8.8/bin/clang++"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/c++.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/c++.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/c++"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/g++.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/g++.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/g++"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/cl.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/cl.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/cl"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/bcc.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/bcc.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/bcc"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/icx.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/icx.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/icx"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/clang++.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/clang++.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/clang++"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/c++.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/c++.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/c++"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/g++.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/g++.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/g++"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/cl"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/bcc"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/icx"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang++.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang++.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/clang++"
+      - "D:/nvm/nvm/c++.com"
+      - "D:/nvm/nvm/c++.exe"
+      - "D:/nvm/nvm/c++"
+      - "D:/nvm/nvm/g++.com"
+      - "D:/nvm/nvm/g++.exe"
+      - "D:/nvm/nvm/g++"
+      - "D:/nvm/nvm/cl.com"
+      - "D:/nvm/nvm/cl.exe"
+      - "D:/nvm/nvm/cl"
+      - "D:/nvm/nvm/bcc.com"
+      - "D:/nvm/nvm/bcc.exe"
+      - "D:/nvm/nvm/bcc"
+      - "D:/nvm/nvm/icx.com"
+      - "D:/nvm/nvm/icx.exe"
+      - "D:/nvm/nvm/icx"
+      - "D:/nvm/nvm/clang++.com"
+      - "D:/nvm/nvm/clang++.exe"
+      - "D:/nvm/nvm/clang++"
+      - "C:/nvm4w/nodejs/c++.com"
+      - "C:/nvm4w/nodejs/c++.exe"
+      - "C:/nvm4w/nodejs/c++"
+      - "C:/nvm4w/nodejs/g++.com"
+      - "C:/nvm4w/nodejs/g++.exe"
+      - "C:/nvm4w/nodejs/g++"
+      - "C:/nvm4w/nodejs/cl.com"
+      - "C:/nvm4w/nodejs/cl.exe"
+      - "C:/nvm4w/nodejs/cl"
+      - "C:/nvm4w/nodejs/bcc.com"
+      - "C:/nvm4w/nodejs/bcc.exe"
+      - "C:/nvm4w/nodejs/bcc"
+      - "C:/nvm4w/nodejs/icx.com"
+      - "C:/nvm4w/nodejs/icx.exe"
+      - "C:/nvm4w/nodejs/icx"
+      - "C:/nvm4w/nodejs/clang++.com"
+      - "C:/nvm4w/nodejs/clang++.exe"
+      - "C:/nvm4w/nodejs/clang++"
+      - "D:/MinGW/bin/c++.com"
+    found: "D:/MinGW/bin/c++.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "D:/Cmake/share/cmake-4.2/Modules/"
+    found: "D:/Cmake/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: D:/MinGW/bin/c++.exe 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
+      
+      The CXX compiler identification is GNU, found in:
+        E:/Desktop/Projects/Clock/build/CMakeFiles/4.2.3/CompilerIdCXX/a.exe
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_AR"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ar"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/ar.com"
+    found: "D:/MinGW/bin/ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RANLIB"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ranlib"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/ranlib.com"
+    found: "D:/MinGW/bin/ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_STRIP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "strip"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/strip.com"
+    found: "D:/MinGW/bin/strip.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_LINKER"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "ld"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/ld.com"
+    found: "D:/MinGW/bin/ld.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_NM"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "nm"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/nm.com"
+    found: "D:/MinGW/bin/nm.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJDUMP"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objdump"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/objdump.com"
+    found: "D:/MinGW/bin/objdump.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_OBJCOPY"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "objcopy"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/objcopy.com"
+    found: "D:/MinGW/bin/objcopy.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_READELF"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "readelf"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/readelf.com"
+    found: "D:/MinGW/bin/readelf.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_DLLTOOL"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "dlltool"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/dlltool.com"
+    found: "D:/MinGW/bin/dlltool.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_ADDR2LINE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "addr2line"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/addr2line.com"
+    found: "D:/MinGW/bin/addr2line.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeFindBinUtils.cmake:243 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:206 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_TAPI"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "tapi"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/tapi.com"
+      - "D:/MinGW/bin/tapi.exe"
+      - "D:/MinGW/bin/tapi"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/tapi.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/tapi.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/tapi"
+      - "D:/VM/bin/tapi.com"
+      - "D:/VM/bin/tapi.exe"
+      - "D:/VM/bin/tapi"
+      - "C:/Windows/System32/tapi.com"
+      - "C:/Windows/System32/tapi.exe"
+      - "C:/Windows/System32/tapi"
+      - "C:/Windows/tapi.com"
+      - "C:/Windows/tapi.exe"
+      - "C:/Windows/tapi"
+      - "C:/Windows/System32/wbem/tapi.com"
+      - "C:/Windows/System32/wbem/tapi.exe"
+      - "C:/Windows/System32/wbem/tapi"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/tapi"
+      - "C:/Windows/System32/OpenSSH/tapi.com"
+      - "C:/Windows/System32/OpenSSH/tapi.exe"
+      - "C:/Windows/System32/OpenSSH/tapi"
+      - "C:/Program Files/dotnet/tapi.com"
+      - "C:/Program Files/dotnet/tapi.exe"
+      - "C:/Program Files/dotnet/tapi"
+      - "C:/gradle-8.8/bin/tapi.com"
+      - "C:/gradle-8.8/bin/tapi.exe"
+      - "C:/gradle-8.8/bin/tapi"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/tapi.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/tapi.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/tapi"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/tapi"
+      - "D:/nvm/nvm/tapi.com"
+      - "D:/nvm/nvm/tapi.exe"
+      - "D:/nvm/nvm/tapi"
+      - "C:/nvm4w/nodejs/tapi.com"
+      - "C:/nvm4w/nodejs/tapi.exe"
+      - "C:/nvm4w/nodejs/tapi"
+      - "D:/Cmake/bin/tapi.com"
+      - "D:/Cmake/bin/tapi.exe"
+      - "D:/Cmake/bin/tapi"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/tapi.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/tapi.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/tapi"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/tapi.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/tapi.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/tapi"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/tapi.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/tapi.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/tapi"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/tapi.com"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/tapi.exe"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/tapi"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/tapi.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/tapi.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/tapi"
+      - "C:/Users/inclu/.dotnet/tools/tapi.com"
+      - "C:/Users/inclu/.dotnet/tools/tapi.exe"
+      - "C:/Users/inclu/.dotnet/tools/tapi"
+      - "C:/Users/inclu/.bun/bin/tapi.com"
+      - "C:/Users/inclu/.bun/bin/tapi.exe"
+      - "C:/Users/inclu/.bun/bin/tapi"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/tapi.com"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/tapi.exe"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/tapi"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/tapi.com"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/tapi.exe"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/tapi"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/tapi.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/tapi.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/tapi"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:18 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_AR"
+    description: "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ar-15.2"
+      - "gcc-ar-15"
+      - "gcc-ar15"
+      - "gcc-ar"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/gcc-ar-15.2.com"
+      - "D:/MinGW/bin/gcc-ar-15.2.exe"
+      - "D:/MinGW/bin/gcc-ar-15.2"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ar-15.2.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ar-15.2.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ar-15.2"
+      - "D:/VM/bin/gcc-ar-15.2.com"
+      - "D:/VM/bin/gcc-ar-15.2.exe"
+      - "D:/VM/bin/gcc-ar-15.2"
+      - "C:/Windows/System32/gcc-ar-15.2.com"
+      - "C:/Windows/System32/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/gcc-ar-15.2"
+      - "C:/Windows/gcc-ar-15.2.com"
+      - "C:/Windows/gcc-ar-15.2.exe"
+      - "C:/Windows/gcc-ar-15.2"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.2"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15.2"
+      - "C:/gradle-8.8/bin/gcc-ar-15.2.com"
+      - "C:/gradle-8.8/bin/gcc-ar-15.2.exe"
+      - "C:/gradle-8.8/bin/gcc-ar-15.2"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ar-15.2.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ar-15.2.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ar-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.2"
+      - "D:/nvm/nvm/gcc-ar-15.2.com"
+      - "D:/nvm/nvm/gcc-ar-15.2.exe"
+      - "D:/nvm/nvm/gcc-ar-15.2"
+      - "C:/nvm4w/nodejs/gcc-ar-15.2.com"
+      - "C:/nvm4w/nodejs/gcc-ar-15.2.exe"
+      - "C:/nvm4w/nodejs/gcc-ar-15.2"
+      - "D:/Cmake/bin/gcc-ar-15.2.com"
+      - "D:/Cmake/bin/gcc-ar-15.2.exe"
+      - "D:/Cmake/bin/gcc-ar-15.2"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15.2.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15.2"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ar-15.2.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ar-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ar-15.2"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ar-15.2.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ar-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ar-15.2"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.com"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.2"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ar-15.2.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ar-15.2.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ar-15.2"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ar-15.2.com"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ar-15.2.exe"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ar-15.2"
+      - "C:/Users/inclu/.bun/bin/gcc-ar-15.2.com"
+      - "C:/Users/inclu/.bun/bin/gcc-ar-15.2.exe"
+      - "C:/Users/inclu/.bun/bin/gcc-ar-15.2"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ar-15.2.com"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ar-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ar-15.2"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ar-15.2.com"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ar-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ar-15.2"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ar-15.2.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ar-15.2.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ar-15.2"
+      - "D:/MinGW/bin/gcc-ar-15.com"
+      - "D:/MinGW/bin/gcc-ar-15.exe"
+      - "D:/MinGW/bin/gcc-ar-15"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ar-15.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ar-15.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ar-15"
+      - "D:/VM/bin/gcc-ar-15.com"
+      - "D:/VM/bin/gcc-ar-15.exe"
+      - "D:/VM/bin/gcc-ar-15"
+      - "C:/Windows/System32/gcc-ar-15.com"
+      - "C:/Windows/System32/gcc-ar-15.exe"
+      - "C:/Windows/System32/gcc-ar-15"
+      - "C:/Windows/gcc-ar-15.com"
+      - "C:/Windows/gcc-ar-15.exe"
+      - "C:/Windows/gcc-ar-15"
+      - "C:/Windows/System32/wbem/gcc-ar-15.com"
+      - "C:/Windows/System32/wbem/gcc-ar-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar-15"
+      - "C:/Program Files/dotnet/gcc-ar-15.com"
+      - "C:/Program Files/dotnet/gcc-ar-15.exe"
+      - "C:/Program Files/dotnet/gcc-ar-15"
+      - "C:/gradle-8.8/bin/gcc-ar-15.com"
+      - "C:/gradle-8.8/bin/gcc-ar-15.exe"
+      - "C:/gradle-8.8/bin/gcc-ar-15"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ar-15.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ar-15.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ar-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar-15"
+      - "D:/nvm/nvm/gcc-ar-15.com"
+      - "D:/nvm/nvm/gcc-ar-15.exe"
+      - "D:/nvm/nvm/gcc-ar-15"
+      - "C:/nvm4w/nodejs/gcc-ar-15.com"
+      - "C:/nvm4w/nodejs/gcc-ar-15.exe"
+      - "C:/nvm4w/nodejs/gcc-ar-15"
+      - "D:/Cmake/bin/gcc-ar-15.com"
+      - "D:/Cmake/bin/gcc-ar-15.exe"
+      - "D:/Cmake/bin/gcc-ar-15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar-15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ar-15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ar-15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ar-15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ar-15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ar-15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ar-15"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.com"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ar-15.exe"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ar-15"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ar-15.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ar-15.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ar-15"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ar-15.com"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ar-15.exe"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ar-15"
+      - "C:/Users/inclu/.bun/bin/gcc-ar-15.com"
+      - "C:/Users/inclu/.bun/bin/gcc-ar-15.exe"
+      - "C:/Users/inclu/.bun/bin/gcc-ar-15"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ar-15.com"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ar-15.exe"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ar-15"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ar-15.com"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ar-15.exe"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ar-15"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ar-15.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ar-15.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ar-15"
+      - "D:/MinGW/bin/gcc-ar15.com"
+      - "D:/MinGW/bin/gcc-ar15.exe"
+      - "D:/MinGW/bin/gcc-ar15"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ar15.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ar15.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ar15"
+      - "D:/VM/bin/gcc-ar15.com"
+      - "D:/VM/bin/gcc-ar15.exe"
+      - "D:/VM/bin/gcc-ar15"
+      - "C:/Windows/System32/gcc-ar15.com"
+      - "C:/Windows/System32/gcc-ar15.exe"
+      - "C:/Windows/System32/gcc-ar15"
+      - "C:/Windows/gcc-ar15.com"
+      - "C:/Windows/gcc-ar15.exe"
+      - "C:/Windows/gcc-ar15"
+      - "C:/Windows/System32/wbem/gcc-ar15.com"
+      - "C:/Windows/System32/wbem/gcc-ar15.exe"
+      - "C:/Windows/System32/wbem/gcc-ar15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ar15"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ar15"
+      - "C:/Program Files/dotnet/gcc-ar15.com"
+      - "C:/Program Files/dotnet/gcc-ar15.exe"
+      - "C:/Program Files/dotnet/gcc-ar15"
+      - "C:/gradle-8.8/bin/gcc-ar15.com"
+      - "C:/gradle-8.8/bin/gcc-ar15.exe"
+      - "C:/gradle-8.8/bin/gcc-ar15"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ar15.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ar15.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ar15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ar15"
+      - "D:/nvm/nvm/gcc-ar15.com"
+      - "D:/nvm/nvm/gcc-ar15.exe"
+      - "D:/nvm/nvm/gcc-ar15"
+      - "C:/nvm4w/nodejs/gcc-ar15.com"
+      - "C:/nvm4w/nodejs/gcc-ar15.exe"
+      - "C:/nvm4w/nodejs/gcc-ar15"
+      - "D:/Cmake/bin/gcc-ar15.com"
+      - "D:/Cmake/bin/gcc-ar15.exe"
+      - "D:/Cmake/bin/gcc-ar15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ar15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ar15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ar15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ar15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ar15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ar15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ar15"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ar15.com"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ar15.exe"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ar15"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ar15.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ar15.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ar15"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ar15.com"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ar15.exe"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ar15"
+      - "C:/Users/inclu/.bun/bin/gcc-ar15.com"
+      - "C:/Users/inclu/.bun/bin/gcc-ar15.exe"
+      - "C:/Users/inclu/.bun/bin/gcc-ar15"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ar15.com"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ar15.exe"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ar15"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ar15.com"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ar15.exe"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ar15"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ar15.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ar15.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ar15"
+      - "D:/MinGW/bin/gcc-ar.com"
+    found: "D:/MinGW/bin/gcc-ar.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/Compiler/GNU-FindBinUtils.cmake:30 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:207 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_CXX_COMPILER_RANLIB"
+    description: "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: false
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: false
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "gcc-ranlib-15.2"
+      - "gcc-ranlib-15"
+      - "gcc-ranlib15"
+      - "gcc-ranlib"
+    candidate_directories:
+      - "D:/MinGW/bin/"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+    searched_directories:
+      - "D:/MinGW/bin/gcc-ranlib-15.2.com"
+      - "D:/MinGW/bin/gcc-ranlib-15.2.exe"
+      - "D:/MinGW/bin/gcc-ranlib-15.2"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ranlib-15.2.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ranlib-15.2.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ranlib-15.2"
+      - "D:/VM/bin/gcc-ranlib-15.2.com"
+      - "D:/VM/bin/gcc-ranlib-15.2.exe"
+      - "D:/VM/bin/gcc-ranlib-15.2"
+      - "C:/Windows/System32/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/gcc-ranlib-15.2"
+      - "C:/Windows/gcc-ranlib-15.2.com"
+      - "C:/Windows/gcc-ranlib-15.2.exe"
+      - "C:/Windows/gcc-ranlib-15.2"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.2"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.2"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.2"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.2"
+      - "C:/gradle-8.8/bin/gcc-ranlib-15.2.com"
+      - "C:/gradle-8.8/bin/gcc-ranlib-15.2.exe"
+      - "C:/gradle-8.8/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ranlib-15.2.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ranlib-15.2"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.2"
+      - "D:/nvm/nvm/gcc-ranlib-15.2.com"
+      - "D:/nvm/nvm/gcc-ranlib-15.2.exe"
+      - "D:/nvm/nvm/gcc-ranlib-15.2"
+      - "C:/nvm4w/nodejs/gcc-ranlib-15.2.com"
+      - "C:/nvm4w/nodejs/gcc-ranlib-15.2.exe"
+      - "C:/nvm4w/nodejs/gcc-ranlib-15.2"
+      - "D:/Cmake/bin/gcc-ranlib-15.2.com"
+      - "D:/Cmake/bin/gcc-ranlib-15.2.exe"
+      - "D:/Cmake/bin/gcc-ranlib-15.2"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15.2.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15.2"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ranlib-15.2.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ranlib-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ranlib-15.2"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ranlib-15.2.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ranlib-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ranlib-15.2"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.com"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.2"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ranlib-15.2.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ranlib-15.2.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ranlib-15.2"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ranlib-15.2.com"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ranlib-15.2.exe"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ranlib-15.2"
+      - "C:/Users/inclu/.bun/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/inclu/.bun/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/inclu/.bun/bin/gcc-ranlib-15.2"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.2"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ranlib-15.2.com"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ranlib-15.2.exe"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ranlib-15.2"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ranlib-15.2.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ranlib-15.2.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ranlib-15.2"
+      - "D:/MinGW/bin/gcc-ranlib-15.com"
+      - "D:/MinGW/bin/gcc-ranlib-15.exe"
+      - "D:/MinGW/bin/gcc-ranlib-15"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ranlib-15.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ranlib-15.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ranlib-15"
+      - "D:/VM/bin/gcc-ranlib-15.com"
+      - "D:/VM/bin/gcc-ranlib-15.exe"
+      - "D:/VM/bin/gcc-ranlib-15"
+      - "C:/Windows/System32/gcc-ranlib-15.com"
+      - "C:/Windows/System32/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/gcc-ranlib-15"
+      - "C:/Windows/gcc-ranlib-15.com"
+      - "C:/Windows/gcc-ranlib-15.exe"
+      - "C:/Windows/gcc-ranlib-15"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib-15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib-15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib-15"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib-15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib-15"
+      - "C:/gradle-8.8/bin/gcc-ranlib-15.com"
+      - "C:/gradle-8.8/bin/gcc-ranlib-15.exe"
+      - "C:/gradle-8.8/bin/gcc-ranlib-15"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ranlib-15.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ranlib-15.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ranlib-15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib-15"
+      - "D:/nvm/nvm/gcc-ranlib-15.com"
+      - "D:/nvm/nvm/gcc-ranlib-15.exe"
+      - "D:/nvm/nvm/gcc-ranlib-15"
+      - "C:/nvm4w/nodejs/gcc-ranlib-15.com"
+      - "C:/nvm4w/nodejs/gcc-ranlib-15.exe"
+      - "C:/nvm4w/nodejs/gcc-ranlib-15"
+      - "D:/Cmake/bin/gcc-ranlib-15.com"
+      - "D:/Cmake/bin/gcc-ranlib-15.exe"
+      - "D:/Cmake/bin/gcc-ranlib-15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib-15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ranlib-15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ranlib-15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ranlib-15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ranlib-15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ranlib-15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ranlib-15"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.com"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15.exe"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib-15"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ranlib-15.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ranlib-15.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ranlib-15"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ranlib-15.com"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ranlib-15.exe"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ranlib-15"
+      - "C:/Users/inclu/.bun/bin/gcc-ranlib-15.com"
+      - "C:/Users/inclu/.bun/bin/gcc-ranlib-15.exe"
+      - "C:/Users/inclu/.bun/bin/gcc-ranlib-15"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.com"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15.exe"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ranlib-15"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ranlib-15.com"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ranlib-15.exe"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ranlib-15"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ranlib-15.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ranlib-15.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ranlib-15"
+      - "D:/MinGW/bin/gcc-ranlib15.com"
+      - "D:/MinGW/bin/gcc-ranlib15.exe"
+      - "D:/MinGW/bin/gcc-ranlib15"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ranlib15.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ranlib15.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/gcc-ranlib15"
+      - "D:/VM/bin/gcc-ranlib15.com"
+      - "D:/VM/bin/gcc-ranlib15.exe"
+      - "D:/VM/bin/gcc-ranlib15"
+      - "C:/Windows/System32/gcc-ranlib15.com"
+      - "C:/Windows/System32/gcc-ranlib15.exe"
+      - "C:/Windows/System32/gcc-ranlib15"
+      - "C:/Windows/gcc-ranlib15.com"
+      - "C:/Windows/gcc-ranlib15.exe"
+      - "C:/Windows/gcc-ranlib15"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.com"
+      - "C:/Windows/System32/wbem/gcc-ranlib15.exe"
+      - "C:/Windows/System32/wbem/gcc-ranlib15"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/gcc-ranlib15"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.com"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15.exe"
+      - "C:/Windows/System32/OpenSSH/gcc-ranlib15"
+      - "C:/Program Files/dotnet/gcc-ranlib15.com"
+      - "C:/Program Files/dotnet/gcc-ranlib15.exe"
+      - "C:/Program Files/dotnet/gcc-ranlib15"
+      - "C:/gradle-8.8/bin/gcc-ranlib15.com"
+      - "C:/gradle-8.8/bin/gcc-ranlib15.exe"
+      - "C:/gradle-8.8/bin/gcc-ranlib15"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ranlib15.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ranlib15.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/gcc-ranlib15"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/gcc-ranlib15"
+      - "D:/nvm/nvm/gcc-ranlib15.com"
+      - "D:/nvm/nvm/gcc-ranlib15.exe"
+      - "D:/nvm/nvm/gcc-ranlib15"
+      - "C:/nvm4w/nodejs/gcc-ranlib15.com"
+      - "C:/nvm4w/nodejs/gcc-ranlib15.exe"
+      - "C:/nvm4w/nodejs/gcc-ranlib15"
+      - "D:/Cmake/bin/gcc-ranlib15.com"
+      - "D:/Cmake/bin/gcc-ranlib15.exe"
+      - "D:/Cmake/bin/gcc-ranlib15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/gcc-ranlib15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ranlib15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ranlib15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/gcc-ranlib15"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ranlib15.com"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ranlib15.exe"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/gcc-ranlib15"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.com"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15.exe"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/gcc-ranlib15"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ranlib15.com"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ranlib15.exe"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/gcc-ranlib15"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ranlib15.com"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ranlib15.exe"
+      - "C:/Users/inclu/.dotnet/tools/gcc-ranlib15"
+      - "C:/Users/inclu/.bun/bin/gcc-ranlib15.com"
+      - "C:/Users/inclu/.bun/bin/gcc-ranlib15.exe"
+      - "C:/Users/inclu/.bun/bin/gcc-ranlib15"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ranlib15.com"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ranlib15.exe"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/gcc-ranlib15"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ranlib15.com"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ranlib15.exe"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/gcc-ranlib15"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ranlib15.com"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ranlib15.exe"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/gcc-ranlib15"
+      - "D:/MinGW/bin/gcc-ranlib.com"
+    found: "D:/MinGW/bin/gcc-ranlib.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineRCCompiler.cmake:40 (find_program)"
+      - "D:/Cmake/share/cmake-4.2/Modules/Platform/Windows-GNU.cmake:167 (enable_language)"
+      - "D:/Cmake/share/cmake-4.2/Modules/Platform/Windows-GNU-CXX.cmake:2 (__windows_compiler_gnu)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeCXXInformation.cmake:48 (include)"
+      - "CMakeLists.txt:3 (project)"
+    mode: "program"
+    variable: "CMAKE_RC_COMPILER"
+    description: "RC compiler"
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "NEVER"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "windres"
+      - "windres"
+    candidate_directories:
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/"
+      - "D:/VM/bin/"
+      - "C:/Windows/System32/"
+      - "C:/Windows/"
+      - "C:/Windows/System32/wbem/"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/"
+      - "C:/Windows/System32/OpenSSH/"
+      - "C:/Program Files/dotnet/"
+      - "C:/gradle-8.8/bin/"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/"
+      - "D:/nvm/nvm/"
+      - "C:/nvm4w/nodejs/"
+      - "D:/MinGW/bin/"
+      - "D:/Cmake/bin/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/Scripts/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Python313/"
+      - "C:/Users/inclu/AppData/Local/Programs/Python/Launcher/"
+      - "C:/Users/inclu/AppData/Local/Microsoft/WindowsApps/"
+      - "D:/IntelliJ IDEA Community Edition 2024.3.2.2/bin/"
+      - "C:/Users/inclu/.dotnet/tools/"
+      - "C:/Users/inclu/.bun/bin/"
+      - "C:/Users/inclu/AppData/Local/GitHubDesktop/bin/"
+      - "C:/Users/inclu/AppData/Local/OpenAI/Codex/bin/"
+      - "C:/Program Files/WindowsApps/OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0/app/resources/"
+      - "C:/Program Files/bin/"
+      - "C:/Program Files/sbin/"
+      - "C:/Program Files/"
+      - "C:/Program Files (x86)/bin/"
+      - "C:/Program Files (x86)/sbin/"
+      - "C:/Program Files (x86)/"
+      - "D:/Cmake/bin/"
+      - "D:/Cmake/sbin/"
+      - "D:/Cmake/"
+      - "C:/Program Files (x86)/FocusClock/bin/"
+      - "C:/Program Files (x86)/FocusClock/sbin/"
+      - "C:/Program Files (x86)/FocusClock/"
+    searched_directories:
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/windres.com"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/windres.exe"
+      - "C:/Users/inclu/.codex/tmp/arg0/codex-arg07iBCtG/windres"
+      - "D:/VM/bin/windres.com"
+      - "D:/VM/bin/windres.exe"
+      - "D:/VM/bin/windres"
+      - "C:/Windows/System32/windres.com"
+      - "C:/Windows/System32/windres.exe"
+      - "C:/Windows/System32/windres"
+      - "C:/Windows/windres.com"
+      - "C:/Windows/windres.exe"
+      - "C:/Windows/windres"
+      - "C:/Windows/System32/wbem/windres.com"
+      - "C:/Windows/System32/wbem/windres.exe"
+      - "C:/Windows/System32/wbem/windres"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.com"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres.exe"
+      - "C:/Windows/System32/WindowsPowerShell/v1.0/windres"
+      - "C:/Windows/System32/OpenSSH/windres.com"
+      - "C:/Windows/System32/OpenSSH/windres.exe"
+      - "C:/Windows/System32/OpenSSH/windres"
+      - "C:/Program Files/dotnet/windres.com"
+      - "C:/Program Files/dotnet/windres.exe"
+      - "C:/Program Files/dotnet/windres"
+      - "C:/gradle-8.8/bin/windres.com"
+      - "C:/gradle-8.8/bin/windres.exe"
+      - "C:/gradle-8.8/bin/windres"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/windres.com"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/windres.exe"
+      - "C:/Program Files/Java/jdk-21.0.10/bin/windres"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/windres.com"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/windres.exe"
+      - "C:/Program Files (x86)/Windows Kits/10/Windows Performance Toolkit/windres"
+      - "D:/nvm/nvm/windres.com"
+      - "D:/nvm/nvm/windres.exe"
+      - "D:/nvm/nvm/windres"
+      - "C:/nvm4w/nodejs/windres.com"
+      - "C:/nvm4w/nodejs/windres.exe"
+      - "C:/nvm4w/nodejs/windres"
+      - "D:/MinGW/bin/windres.com"
+    found: "D:/MinGW/bin/windres.exe"
+    search_context:
+      ENV{PATH}:
+        - "C:\\Users\\inclu\\.codex\\tmp\\arg0\\codex-arg07iBCtG"
+        - "D:\\VM\\bin\\"
+        - "C:\\Windows\\system32"
+        - "C:\\Windows"
+        - "C:\\Windows\\System32\\Wbem"
+        - "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\"
+        - "C:\\Windows\\System32\\OpenSSH\\"
+        - "C:\\Program Files\\dotnet\\"
+        - "C:\\gradle-8.8\\bin"
+        - "C:\\Program Files\\Java\\jdk-21.0.10\\bin"
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "D:\\nvm\\nvm"
+        - "C:\\nvm4w\\nodejs"
+        - "D:\\MinGW\\bin"
+        - "D:\\Cmake\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\Scripts\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Python313\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Programs\\Python\\Launcher\\"
+        - "C:\\Users\\inclu\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "D:\\IntelliJ IDEA Community Edition 2024.3.2.2\\bin"
+        - "C:\\Users\\inclu\\.dotnet\\tools"
+        - "C:\\Users\\inclu\\.bun\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\inclu\\AppData\\Local\\OpenAI\\Codex\\bin"
+        - "C:\\Program Files\\WindowsApps\\OpenAI.Codex_26.429.3425.0_x64__2p2nqsd0c76g0\\app\\resources"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/FocusClock"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "D:/Cmake"
+        - "C:/Program Files (x86)/FocusClock"
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "E:/Desktop/Projects/Clock/build/CMakeFiles/CMakeScratch/TryCompile-oen5yl"
+      binary: "E:/Desktop/Projects/Clock/build/CMakeFiles/CMakeScratch/TryCompile-oen5yl"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'E:/Desktop/Projects/Clock/build/CMakeFiles/CMakeScratch/TryCompile-oen5yl'
+        
+        Run Build Command(s): D:/Cmake/bin/cmake.exe -E env VERBOSE=1 D:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f093d/fast
+        D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f093d.dir\\build.make CMakeFiles/cmTC_f093d.dir/build
+        mingw32-make[1]: Entering directory 'E:/Desktop/Projects/Clock/build/CMakeFiles/CMakeScratch/TryCompile-oen5yl'
+        Building CXX object CMakeFiles/cmTC_f093d.dir/CMakeCXXCompilerABI.cpp.obj
+        D:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=D:\\MinGW\\bin\\c++.exe
+        Target: i686-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-mcf-dwarf-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: mcf
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (i686-mcf-dwarf-rev0, Built by MinGW-Builds project) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\\cmTC_f093d.dir\\'
+         D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/ -U_REENTRANT D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_f093d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=i686 -version -o C:\\Users\\inclu\\AppData\\Local\\Temp\\ccsqt1iV.s
+        GNU C++17 (i686-mcf-dwarf-rev0, Built by MinGW-Builds project) version 15.2.0 (i686-w64-mingw32)
+        	compiled by GNU C version 15.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.27-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/include/c++"
+        ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/i686-w64-mingw32"
+        ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/backward"
+        ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/include"
+        ignoring nonexistent directory "C:/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32D:/a/_temp/msys64/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/../../../../include"
+        ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/include-fixed"
+        ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/include"
+        ignoring nonexistent directory "C:/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/mingw/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++
+         D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/i686-w64-mingw32
+         D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/backward
+         D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include
+         D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include-fixed
+         D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/include
+        End of search list.
+        Compiler executable checksum: 866ac5da2320787b3ec62a2be6fa31f8
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\\cmTC_f093d.dir\\'
+         D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\inclu\\AppData\\Local\\Temp\\ccsqt1iV.s
+        GNU assembler version 2.45 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.45
+        COMPILER_PATH=D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/;D:/MinGW/bin/../libexec/gcc/;D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/bin/
+        LIBRARY_PATH=D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/;D:/MinGW/bin/../lib/gcc/;D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib/;D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../lib/;D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/;D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_f093d.exe
+        D:\\Cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f093d.dir\\link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=D:\\MinGW\\bin\\c++.exe
+        COLLECT_LTO_WRAPPER=D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/lto-wrapper.exe
+        Target: i686-w64-mingw32
+        Configured with: ../../../src/gcc-15.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-mcf-dwarf-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc'
+        Thread model: mcf
+        Supported LTO compression algorithms: zlib
+        gcc version 15.2.0 (i686-mcf-dwarf-rev0, Built by MinGW-Builds project) 
+        COMPILER_PATH=D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/;D:/MinGW/bin/../libexec/gcc/;D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/bin/
+        LIBRARY_PATH=D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/;D:/MinGW/bin/../lib/gcc/;D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib/;D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../lib/;D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/;D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f093d.exe' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_f093d.'
+         D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/collect2.exe -plugin D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\inclu\\AppData\\Local\\Temp\\cc3kXWjN.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_f093d.exe D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtbegin.o -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0 -LD:/MinGW/bin/../lib/gcc -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../lib -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f093d.dir/objects.a --no-whole-archive --out-implib libcmTC_f093d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtend.o
+        collect2 version 15.2.0
+        D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/bin/ld.exe -plugin D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\inclu\\AppData\\Local\\Temp\\cc3kXWjN.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_f093d.exe D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtbegin.o -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0 -LD:/MinGW/bin/../lib/gcc -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../lib -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f093d.dir/objects.a --no-whole-archive --out-implib libcmTC_f093d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtend.o
+        GNU ld (GNU Binutils) 2.45
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f093d.exe' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_f093d.'
+        D:\\Cmake\\bin\\cmake.exe -E rm -f CMakeFiles\\cmTC_f093d.dir/objects.a
+        D:\\MinGW\\bin\\ar.exe qc CMakeFiles\\cmTC_f093d.dir/objects.a @CMakeFiles\\cmTC_f093d.dir\\objects1.rsp
+        D:\\MinGW\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_f093d.dir/objects.a -Wl,--no-whole-archive -o cmTC_f093d.exe -Wl,--out-implib,libcmTC_f093d.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make[1]: Leaving directory 'E:/Desktop/Projects/Clock/build/CMakeFiles/CMakeScratch/TryCompile-oen5yl'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++]
+          add: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/i686-w64-mingw32]
+          add: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/backward]
+          add: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include]
+          add: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include-fixed]
+          add: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/include]
+        end of search list found
+        collapse include dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++] ==> [D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/include/c++]
+        collapse include dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/i686-w64-mingw32] ==> [D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/include/c++/i686-w64-mingw32]
+        collapse include dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/backward] ==> [D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/include/c++/backward]
+        collapse include dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include] ==> [D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/include]
+        collapse include dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include-fixed] ==> [D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/include-fixed]
+        collapse include dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/include] ==> [D:/MinGW/i686-w64-mingw32/include]
+        implicit include dirs: [D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/include/c++;D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/include/c++/i686-w64-mingw32;D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/include/c++/backward;D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/include;D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/include-fixed;D:/MinGW/i686-w64-mingw32/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: 'E:/Desktop/Projects/Clock/build/CMakeFiles/CMakeScratch/TryCompile-oen5yl']
+        ignore line: []
+        ignore line: [Run Build Command(s): D:/Cmake/bin/cmake.exe -E env VERBOSE=1 D:/MinGW/bin/mingw32-make.exe -f Makefile cmTC_f093d/fast]
+        ignore line: [D:/MinGW/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_f093d.dir\\build.make CMakeFiles/cmTC_f093d.dir/build]
+        ignore line: [mingw32-make[1]: Entering directory 'E:/Desktop/Projects/Clock/build/CMakeFiles/CMakeScratch/TryCompile-oen5yl']
+        ignore line: [Building CXX object CMakeFiles/cmTC_f093d.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [D:\\MinGW\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.obj -c D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\MinGW\\bin\\c++.exe]
+        ignore line: [Target: i686-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-mcf-dwarf-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: mcf]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (i686-mcf-dwarf-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\\cmTC_f093d.dir\\']
+        ignore line: [ D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/cc1plus.exe -quiet -v -iprefix D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/ -U_REENTRANT D:\\Cmake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_f093d.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=i686 -version -o C:\\Users\\inclu\\AppData\\Local\\Temp\\ccsqt1iV.s]
+        ignore line: [GNU C++17 (i686-mcf-dwarf-rev0  Built by MinGW-Builds project) version 15.2.0 (i686-w64-mingw32)]
+        ignore line: [	compiled by GNU C version 15.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/include/c++"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/i686-w64-mingw32"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32D:/a/_temp/msys64/mingw32/lib/gcc/i686-w64-mingw32/15.2.0/../../../../include"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/include-fixed"]
+        ignore line: [ignoring duplicate directory "D:/MinGW/lib/gcc/../../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/include"]
+        ignore line: [ignoring nonexistent directory "C:/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/mingw/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++]
+        ignore line: [ D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/i686-w64-mingw32]
+        ignore line: [ D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include/c++/backward]
+        ignore line: [ D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include]
+        ignore line: [ D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/include-fixed]
+        ignore line: [ D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 866ac5da2320787b3ec62a2be6fa31f8]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\\cmTC_f093d.dir\\']
+        ignore line: [ D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\inclu\\AppData\\Local\\Temp\\ccsqt1iV.s]
+        ignore line: [GNU assembler version 2.45 (i686-w64-mingw32) using BFD version (GNU Binutils) 2.45]
+        ignore line: [COMPILER_PATH=D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/]
+        ignore line: [D:/MinGW/bin/../libexec/gcc/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'CMakeFiles\\cmTC_f093d.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_f093d.exe]
+        ignore line: [D:\\Cmake\\bin\\cmake.exe -E cmake_link_script CMakeFiles\\cmTC_f093d.dir\\link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=D:\\MinGW\\bin\\c++.exe]
+        ignore line: [COLLECT_LTO_WRAPPER=D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/lto-wrapper.exe]
+        ignore line: [Target: i686-w64-mingw32]
+        ignore line: [Configured with: ../../../src/gcc-15.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-mcf-dwarf-rev0, Built by MinGW-Builds project' --with-bugurl=https://github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/bin/ld.exe --with-boot-ldflags='-pipe -fno-ident -L/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/opt/lib -L/c/buildroot/prerequisites/i686-zlib-static/lib -L/c/buildroot/prerequisites/i686-w64-mingw32-static/lib -Wl,--large-address-aware -Wl,--disable-dynamicbase -static-libstdc++ -static-libgcc']
+        ignore line: [Thread model: mcf]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 15.2.0 (i686-mcf-dwarf-rev0  Built by MinGW-Builds project) ]
+        ignore line: [COMPILER_PATH=D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/]
+        ignore line: [D:/MinGW/bin/../libexec/gcc/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/bin/]
+        ignore line: [LIBRARY_PATH=D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../lib/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/]
+        ignore line: [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_f093d.exe' '-shared-libgcc' '-mtune=generic' '-march=i686' '-dumpdir' 'cmTC_f093d.']
+        link line: [ D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/collect2.exe -plugin D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/liblto_plugin.dll -plugin-opt=D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\inclu\\AppData\\Local\\Temp\\cc3kXWjN.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lmcfgthread -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lntdll --sysroot=C:/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 -m i386pe -Bdynamic -u ___register_frame_info -u ___deregister_frame_info -o cmTC_f093d.exe D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtbegin.o -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0 -LD:/MinGW/bin/../lib/gcc -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../lib -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib -LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../.. -v --whole-archive CMakeFiles\\cmTC_f093d.dir/objects.a --no-whole-archive --out-implib libcmTC_f093d.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmingwex -lmsvcrt -lkernel32 -lmcfgthread -lkernel32 -lntdll D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtend.o]
+          arg [D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/collect2.exe] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/liblto_plugin.dll] ==> ignore
+          arg [-plugin-opt=D:/MinGW/bin/../libexec/gcc/i686-w64-mingw32/15.2.0/lto-wrapper.exe] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\inclu\\AppData\\Local\\Temp\\cc3kXWjN.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmcfgthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lntdll] ==> ignore
+          arg [-plugin-opt=-pass-through=-ladvapi32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lshell32] ==> ignore
+          arg [-plugin-opt=-pass-through=-luser32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-liconv] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmingwex] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmsvcrt] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lmcfgthread] ==> ignore
+          arg [-plugin-opt=-pass-through=-lkernel32] ==> ignore
+          arg [-plugin-opt=-pass-through=-lntdll] ==> ignore
+          arg [--sysroot=C:/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32] ==> ignore
+          arg [-m] ==> ignore
+          arg [i386pe] ==> ignore
+          arg [-Bdynamic] ==> search dynamic
+          arg [-u] ==> ignore
+          arg [___register_frame_info] ==> ignore
+          arg [-u] ==> ignore
+          arg [___deregister_frame_info] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f093d.exe] ==> ignore
+          arg [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> obj [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o]
+          arg [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtbegin.o] ==> obj [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtbegin.o]
+          arg [-LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0] ==> dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0]
+          arg [-LD:/MinGW/bin/../lib/gcc] ==> dir [D:/MinGW/bin/../lib/gcc]
+          arg [-LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib] ==> dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib]
+          arg [-LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../lib] ==> dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../lib]
+          arg [-LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib] ==> dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib]
+          arg [-LD:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../..] ==> dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../..]
+          arg [-v] ==> ignore
+          arg [--whole-archive] ==> ignore
+          arg [CMakeFiles\\cmTC_f093d.dir/objects.a] ==> ignore
+          arg [--no-whole-archive] ==> ignore
+          arg [--out-implib] ==> ignore
+          arg [libcmTC_f093d.dll.a] ==> ignore
+          arg [--major-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [--minor-image-version] ==> ignore
+          arg [0] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmcfgthread] ==> lib [mcfgthread]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lntdll] ==> lib [ntdll]
+          arg [-ladvapi32] ==> lib [advapi32]
+          arg [-lshell32] ==> lib [shell32]
+          arg [-luser32] ==> lib [user32]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-liconv] ==> lib [iconv]
+          arg [-lmingw32] ==> lib [mingw32]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lmingwex] ==> lib [mingwex]
+          arg [-lmsvcrt] ==> lib [msvcrt]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lmcfgthread] ==> lib [mcfgthread]
+          arg [-lkernel32] ==> lib [kernel32]
+          arg [-lntdll] ==> lib [ntdll]
+          arg [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtend.o] ==> obj [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtend.o]
+        linker tool for 'CXX': ../src/gcc-15.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-mcf-dwarf-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/bin/ld.exe
+        remove lib [msvcrt]
+        remove lib [msvcrt]
+        collapse obj [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib/crt2.o] ==> [D:/MinGW/i686-w64-mingw32/lib/crt2.o]
+        collapse obj [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtbegin.o] ==> [D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/crtbegin.o]
+        collapse obj [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/crtend.o] ==> [D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/crtend.o]
+        collapse library dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0] ==> [D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0]
+        collapse library dir [D:/MinGW/bin/../lib/gcc] ==> [D:/MinGW/lib/gcc]
+        collapse library dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib/../lib] ==> [D:/MinGW/i686-w64-mingw32/lib]
+        collapse library dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../lib] ==> [D:/MinGW/lib]
+        collapse library dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../../../i686-w64-mingw32/lib] ==> [D:/MinGW/i686-w64-mingw32/lib]
+        collapse library dir [D:/MinGW/bin/../lib/gcc/i686-w64-mingw32/15.2.0/../../..] ==> [D:/MinGW/lib]
+        implicit libs: [stdc++;mingw32;gcc_s;gcc;mingwex;kernel32;mcfgthread;kernel32;ntdll;advapi32;shell32;user32;kernel32;iconv;mingw32;gcc_s;gcc;mingwex;kernel32;mcfgthread;kernel32;ntdll]
+        implicit objs: [D:/MinGW/i686-w64-mingw32/lib/crt2.o;D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/crtbegin.o;D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0/crtend.o]
+        implicit dirs: [D:/MinGW/lib/gcc/i686-w64-mingw32/15.2.0;D:/MinGW/lib/gcc;D:/MinGW/i686-w64-mingw32/lib;D:/MinGW/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-mcf-dwarf-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/bin/ld.exe" "-v"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-mcf-dwarf-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/bin/ld.exe" "-V"
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "D:/Cmake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "D:/Cmake/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:3 (project)"
+    message: |
+      Running the CXX compiler's linker: "../src/gcc-15.2.0/configure --host=i686-w64-mingw32 --build=i686-w64-mingw32 --target=i686-w64-mingw32 --prefix=/mingw32 --with-sysroot=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32 --enable-host-shared --disable-multilib --enable-languages=c,c++,fortran,lto --enable-libstdcxx-time=yes --enable-threads=mcf --enable-libgomp --enable-libatomic --enable-lto --enable-graphite --enable-checking=release --enable-mingw-wildcard --enable-fully-dynamic-string --enable-version-specific-runtime-libs --enable-libstdcxx-filesystem-ts=yes --disable-sjlj-exceptions --with-dwarf2 --disable-libssp --disable-libstdcxx-pch --disable-libstdcxx-debug --enable-bootstrap --disable-rpath --disable-win32-registry --disable-nls --disable-werror --disable-symvers --with-gnu-as --with-gnu-ld --with-arch=i686 --with-tune=generic --with-libiconv --with-system-zlib --with-gmp=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpfr=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-mpc=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-isl=/c/buildroot/prerequisites/i686-w64-mingw32-static --with-pkgversion='i686-mcf-dwarf-rev0, Built by MinGW-Builds project' --with-bugurl=https:/github.com/niXman/mingw-builds LD_FOR_TARGET=/c/buildroot/i686-1520-mcf-dwarf-ucrt-rt_v13-rev0/mingw32/bin/ld.exe" "--version"
+      
+...

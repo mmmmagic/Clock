@@ -1,0 +1,3 @@
+D:\Cmake\bin\cmake.exe -E rm -f CMakeFiles\FocusClock.dir/objects.a
+D:\MinGW\bin\ar.exe qc CMakeFiles\FocusClock.dir/objects.a @CMakeFiles\FocusClock.dir\objects1.rsp
+D:\MinGW\bin\c++.exe -mwindows -municode -Wl,--whole-archive CMakeFiles\FocusClock.dir/objects.a -Wl,--no-whole-archive -o FocusClock.exe -Wl,--out-implib,libFocusClock.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\FocusClock.dir\linkLibs.rsp
