@@ -117,8 +117,8 @@ void FocusClockApp::HandlePanelCommand(int id) {
         AddWhitelistFromFileDialog();
     } else if (id == kWhitelistAddFolderId) {
         AddWhitelistFromFolderDialog();
-    } else if (id == kWhitelistAddProcessId) {
-        AddWhitelistFromRunningProcess();
+    } else if (id == kWhitelistAddWindowId) {
+        AddWhitelistFromWindow();
     } else if (id >= kWhitelistDeleteButtonBaseId && id < kWhitelistDeleteButtonLimit) {
         DeleteWhitelistEntry(static_cast<size_t>(id - kWhitelistDeleteButtonBaseId));
     }

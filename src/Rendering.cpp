@@ -135,27 +135,51 @@ void FocusClockApp::Paint() {
     }
 
     for (const auto& button : buttons_) {
+        if (panelOpen_ && !focusActive_ && button.id >= kPanelButtonBaseId) {
+            continue;
+        }
         DrawButton(g, button);
     }
 
     if (panelOpen_ && !focusActive_) {
         DrawPanel(g, rc);
         RECT viewport = PanelContentViewport();
+        auto intersectsViewport = [](const RECT& rect, const RECT& viewport) {
+            return rect.right > viewport.left &&
+                rect.left < viewport.right &&
+                rect.bottom > viewport.top &&
+                rect.top < viewport.bottom;
+        };
+
+        auto drawClippedToViewport = [&](const UiButton& button) {
+            GraphicsState state = g.Save();
+            RectF clipRect(
+                static_cast<REAL>(viewport.left),
+                static_cast<REAL>(viewport.top),
+                static_cast<REAL>(viewport.right - viewport.left),
+                static_cast<REAL>(viewport.bottom - viewport.top));
+            g.SetClip(clipRect);
+            DrawButton(g, button);
+            g.Restore(state);
+        };
+
         for (const auto& button : buttons_) {
             if (button.id >= kPanelButtonBaseId) {
-                if (activePanelTab_ == kPanelTabScheduleId &&
+                bool scrollableScheduleButton = activePanelTab_ == kPanelTabScheduleId &&
                     button.id >= kScheduleStartHourMinusId &&
-                    button.id < kScheduleDeleteButtonLimit &&
-                    (button.rect.bottom < viewport.top || button.rect.top > viewport.bottom)) {
-                    continue;
-                }
-                if (activePanelTab_ == kPanelTabWhitelistId &&
+                    button.id < kScheduleDeleteButtonLimit;
+                bool scrollableWhitelistButton = activePanelTab_ == kPanelTabWhitelistId &&
                     button.id >= kWhitelistAddFileId &&
-                    button.id < kWhitelistDeleteButtonLimit &&
-                    (button.rect.bottom < viewport.top || button.rect.top > viewport.bottom)) {
-                    continue;
+                    button.id < kWhitelistDeleteButtonLimit;
+
+                if (scrollableScheduleButton || scrollableWhitelistButton) {
+                    if (!intersectsViewport(button.rect, viewport)) {
+                        continue;
+                    }
+                    drawClippedToViewport(button);
+                } else {
+                    DrawButton(g, button);
                 }
-                DrawButton(g, button);
             }
         }
     }

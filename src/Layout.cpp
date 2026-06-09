@@ -213,9 +213,9 @@ void FocusClockApp::RebuildLayout() {
                 false,
                 false);
             AddPanelButton(
-                kWhitelistAddProcessId,
+                kWhitelistAddWindowId,
                 RECT{ contentLeft, panelBounds_.top + 200 - scrollY, contentLeft + 182, panelBounds_.top + 244 - scrollY },
-                L"从运行进程添加",
+                L"从窗口添加",
                 false,
                 true,
                 false,

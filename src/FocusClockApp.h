@@ -89,12 +89,12 @@ constexpr int kScheduleDeleteButtonLimit = 3600;
 constexpr int kRerunCreateTaskId = 3601;
 constexpr int kWhitelistAddFileId = 3701;
 constexpr int kWhitelistAddFolderId = 3702;
-constexpr int kWhitelistAddProcessId = 3703;
+constexpr int kWhitelistAddWindowId = 3703;
 constexpr int kWhitelistDeleteButtonBaseId = 3800;
 constexpr int kWhitelistDeleteButtonLimit = 4000;
 constexpr int kPanelHotkeyId = 4001;
 constexpr int kUpdateNowButtonId = 4101;
-constexpr int kProcessPopupBaseId = 50000;
+constexpr int kWindowPopupBaseId = 50000;
 constexpr int kMinWhitelistIconSize = 48;
 constexpr int kMaxWhitelistIconSize = 120;
 constexpr int kDefaultWhitelistIconSize = 72;
@@ -153,8 +153,10 @@ struct WhitelistEntry {
     HICON icon = nullptr;
 };
 
-struct ProcessPathChoice {
+struct WindowPathChoice {
+    HWND window = nullptr;
     DWORD pid = 0;
+    std::wstring title;
     std::wstring path;
     std::wstring exeName;
 };
@@ -210,6 +212,11 @@ struct FindWindowContext {
 struct WhitelistedWindowListContext {
     const FocusClockApp* app = nullptr;
     std::vector<HWND>* windows = nullptr;
+};
+
+struct WindowPathChoiceContext {
+    const FocusClockApp* app = nullptr;
+    std::vector<WindowPathChoice>* choices = nullptr;
 };
 
 class FocusClockApp {
@@ -309,10 +316,10 @@ private:
     void AddWhitelistFolder(const std::wstring& folder);
     void AddWhitelistFromFileDialog();
     void AddWhitelistFromFolderDialog();
-    void AddWhitelistFromRunningProcess();
+    void AddWhitelistFromWindow();
     void DeleteWhitelistEntry(size_t index);
     std::vector<std::wstring> EnumerateExecutableFilesInDirectory(const std::wstring& folder) const;
-    std::vector<ProcessPathChoice> EnumerateRunningProcessPaths() const;
+    std::vector<WindowPathChoice> EnumerateSelectableWindows() const;
     bool IsWhitelistPathDuplicate(const std::wstring& path) const;
     bool HasScheduleConflict(int startMinute, int endMinute, int ignoreIndex = -1) const;
     bool IsValidScheduleRange(int startMinute, int endMinute) const;
@@ -366,6 +373,7 @@ private:
     static std::wstring QuoteCommandArgument(const std::wstring& value);
     static std::wstring QuotePowerShellString(const std::wstring& value);
     static std::wstring SanitizeFileName(std::wstring value);
+    static BOOL CALLBACK EnumSelectableWindows(HWND window, LPARAM param);
     static BOOL CALLBACK EnumWhitelistWindows(HWND window, LPARAM param);
     static BOOL CALLBACK EnumVisibleWhitelistedWindows(HWND window, LPARAM param);
     static BOOL CALLBACK EnumWhitelistedWindowsForRestore(HWND window, LPARAM param);

@@ -333,57 +333,39 @@ std::vector<std::wstring> FocusClockApp::EnumerateExecutableFilesInDirectory(con
     return executablePaths;
 }
 
-std::vector<ProcessPathChoice> FocusClockApp::EnumerateRunningProcessPaths() const {
-    std::vector<ProcessPathChoice> choices;
-    HANDLE snapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, 0);
-    if (snapshot == INVALID_HANDLE_VALUE) {
-        return choices;
-    }
+std::vector<WindowPathChoice> FocusClockApp::EnumerateSelectableWindows() const {
+    std::vector<WindowPathChoice> choices;
+    WindowPathChoiceContext context{};
+    context.app = this;
+    context.choices = &choices;
+    EnumWindows(EnumSelectableWindows, reinterpret_cast<LPARAM>(&context));
 
-    PROCESSENTRY32W entry{};
-    entry.dwSize = sizeof(entry);
-    std::map<std::wstring, bool> seen;
-    if (Process32FirstW(snapshot, &entry)) {
-        do {
-            HANDLE process = OpenProcess(PROCESS_QUERY_LIMITED_INFORMATION, FALSE, entry.th32ProcessID);
-            if (!process) {
-                continue;
-            }
+    std::sort(choices.begin(), choices.end(), [](const WindowPathChoice& left, const WindowPathChoice& right) {
+        std::wstring leftTitle = ToLower(left.title);
+        std::wstring rightTitle = ToLower(right.title);
+        if (leftTitle != rightTitle) {
+            return leftTitle < rightTitle;
+        }
 
-            std::wstring path(32768, L'\0');
-            DWORD size = static_cast<DWORD>(path.size());
-            BOOL ok = QueryFullProcessImageNameW(process, 0, path.data(), &size);
-            CloseHandle(process);
-            if (!ok || size == 0) {
-                continue;
-            }
-
-            path.resize(size);
-            std::wstring key = ToLower(path);
-            if (seen.find(key) != seen.end()) {
-                continue;
-            }
-            seen.emplace(std::move(key), true);
-            choices.push_back(ProcessPathChoice{ entry.th32ProcessID, path, BaseName(path) });
-        } while (Process32NextW(snapshot, &entry));
-    }
-
-    CloseHandle(snapshot);
-    std::sort(choices.begin(), choices.end(), [](const ProcessPathChoice& left, const ProcessPathChoice& right) {
         std::wstring leftName = ToLower(left.exeName);
         std::wstring rightName = ToLower(right.exeName);
-        if (leftName == rightName) {
+        if (leftName != rightName) {
+            return leftName < rightName;
+        }
+
+        if (left.pid != right.pid) {
             return left.pid < right.pid;
         }
-        return leftName < rightName;
+
+        return reinterpret_cast<UINT_PTR>(left.window) < reinterpret_cast<UINT_PTR>(right.window);
     });
     return choices;
 }
 
-void FocusClockApp::AddWhitelistFromRunningProcess() {
-    std::vector<ProcessPathChoice> choices = EnumerateRunningProcessPaths();
+void FocusClockApp::AddWhitelistFromWindow() {
+    std::vector<WindowPathChoice> choices = EnumerateSelectableWindows();
     if (choices.empty()) {
-        whitelistMessage_ = L"添加失败：没有可读取路径的运行进程。";
+        whitelistMessage_ = L"添加失败：没有可选择的窗口。";
         whitelistMessageIsError_ = true;
         RebuildLayout();
         InvalidateRect(hwnd_, nullptr, FALSE);
@@ -398,16 +380,21 @@ void FocusClockApp::AddWhitelistFromRunningProcess() {
     constexpr size_t maxChoices = 160;
     size_t count = std::min(choices.size(), maxChoices);
     for (size_t i = 0; i < count; ++i) {
-        std::wstring label = choices[i].exeName + L"  (" + std::to_wstring(choices[i].pid) + L")";
-        AppendMenuW(menu, MF_STRING, kProcessPopupBaseId + static_cast<UINT>(i), label.c_str());
+        std::wstring title = choices[i].title;
+        if (title.size() > 64) {
+            title = title.substr(0, 61) + L"...";
+        }
+
+        std::wstring label = title + L"  -  " + choices[i].exeName;
+        AppendMenuW(menu, MF_STRING, kWindowPopupBaseId + static_cast<UINT>(i), label.c_str());
     }
 
     POINT pt{};
     GetCursorPos(&pt);
     UINT command = TrackPopupMenu(menu, TPM_RETURNCMD | TPM_NONOTIFY | TPM_LEFTALIGN | TPM_TOPALIGN, pt.x, pt.y, 0, hwnd_, nullptr);
     DestroyMenu(menu);
-    if (command >= kProcessPopupBaseId && command < kProcessPopupBaseId + count) {
-        AddWhitelistPath(choices[command - kProcessPopupBaseId].path);
+    if (command >= kWindowPopupBaseId && command < kWindowPopupBaseId + count) {
+        AddWhitelistPath(choices[command - kWindowPopupBaseId].path);
     }
 }
 
@@ -618,6 +605,53 @@ bool FocusClockApp::IsExecutableWhitelisted(const std::wstring& path) const {
 bool FocusClockApp::ShouldYieldToWhitelist() const {
     return whitelistYieldUntil_ != std::chrono::steady_clock::time_point{} &&
         std::chrono::steady_clock::now() < whitelistYieldUntil_;
+}
+
+BOOL CALLBACK FocusClockApp::EnumSelectableWindows(HWND window, LPARAM param) {
+    auto* context = reinterpret_cast<WindowPathChoiceContext*>(param);
+    if (!context || !context->app || !context->choices || !window || window == context->app->hwnd_) {
+        return TRUE;
+    }
+
+    if (!IsWindowVisible(window) || GetWindow(window, GW_OWNER)) {
+        return TRUE;
+    }
+
+    int titleLength = GetWindowTextLengthW(window);
+    if (titleLength <= 0) {
+        return TRUE;
+    }
+
+    std::wstring title(static_cast<size_t>(titleLength) + 1, L'\0');
+    int copied = GetWindowTextW(window, title.data(), titleLength + 1);
+    if (copied <= 0) {
+        return TRUE;
+    }
+    title.resize(static_cast<size_t>(copied));
+    title = Trim(title);
+    if (title.empty()) {
+        return TRUE;
+    }
+
+    DWORD pid = 0;
+    GetWindowThreadProcessId(window, &pid);
+    if (pid == 0 || pid == GetCurrentProcessId()) {
+        return TRUE;
+    }
+
+    std::wstring path = context->app->GetProcessImagePath(window);
+    if (path.empty()) {
+        return TRUE;
+    }
+
+    context->choices->push_back(WindowPathChoice{
+        window,
+        pid,
+        title,
+        path,
+        BaseName(path)
+    });
+    return TRUE;
 }
 
 BOOL CALLBACK FocusClockApp::EnumWhitelistWindows(HWND window, LPARAM param) {
