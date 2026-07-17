@@ -440,7 +440,7 @@ void FocusClockApp::OpenWhitelistEntry(size_t index) {
             pendingWhitelistIndex_ = -1;
             activeWhitelistWindow_ = running;
             BringWindowToFront(running);
-            EnterFullscreenBelow(running);
+            EnterFullscreenNotTopmost();
             return;
         }
     }
@@ -468,7 +468,9 @@ void FocusClockApp::BringWindowToFront(HWND target) {
         return;
     }
 
-    PromoteWhitelistWindow(target, true);
+    if (focusActive_) {
+        PromoteWhitelistWindow(target, true);
+    }
 
     if (IsIconic(target)) {
         ShowWindow(target, SW_RESTORE);
@@ -476,7 +478,14 @@ void FocusClockApp::BringWindowToFront(HWND target) {
         ShowWindow(target, SW_SHOWNORMAL);
     }
 
-    SetWindowPos(target, HWND_TOPMOST, 0, 0, 0, 0, SWP_NOMOVE | SWP_NOSIZE | SWP_SHOWWINDOW);
+    SetWindowPos(
+        target,
+        focusActive_ ? HWND_TOPMOST : HWND_TOP,
+        0,
+        0,
+        0,
+        0,
+        SWP_NOMOVE | SWP_NOSIZE | SWP_SHOWWINDOW);
     SetForegroundWindow(target);
 }
 
@@ -519,8 +528,6 @@ HWND FocusClockApp::PromoteVisibleWhitelistedWindows() {
 }
 
 void FocusClockApp::RestorePromotedWhitelistWindows() {
-    EnumWindows(EnumWhitelistedWindowsForRestore, reinterpret_cast<LPARAM>(this));
-
     for (auto const& [window, style] : promotedWindows_) {
         RestoreWhitelistWindow(window, style);
     }
@@ -532,12 +539,12 @@ void FocusClockApp::RestoreWhitelistWindow(HWND target, LONG_PTR savedStyle) {
         return;
     }
 
-    LONG_PTR currentStyle = GetWindowLongPtrW(target, GWL_EXSTYLE);
-    LONG_PTR nextStyle = savedStyle != 0 ? savedStyle : (currentStyle & ~WS_EX_TOPMOST);
-    SetWindowLongPtrW(target, GWL_EXSTYLE, nextStyle & ~WS_EX_TOPMOST);
+    LONG_PTR nextStyle = savedStyle;
+    SetWindowLongPtrW(target, GWL_EXSTYLE, nextStyle);
+    HWND insertAfter = (nextStyle & WS_EX_TOPMOST) != 0 ? HWND_TOPMOST : HWND_NOTOPMOST;
     SetWindowPos(
         target,
-        HWND_NOTOPMOST,
+        insertAfter,
         0,
         0,
         0,

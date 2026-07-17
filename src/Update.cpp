@@ -141,6 +141,16 @@ bool IsUsableRelease(const UpdateSourceProbe& probe) {
         IsHexDigest(NormalizeSha256Digest(probe.release.assetDigest), 64);
 }
 
+template <typename T>
+bool PostOwnedPointer(HWND target, UINT message, WPARAM wparam, T* value) {
+    if (target && IsWindow(target) && PostMessageW(target, message, wparam, reinterpret_cast<LPARAM>(value))) {
+        return true;
+    }
+
+    delete value;
+    return false;
+}
+
 } // namespace
 
 void FocusClockApp::StartUpdateCheck(bool force) {
@@ -191,7 +201,7 @@ void FocusClockApp::StartUpdateCheck(bool force) {
         }
 
         ReleaseInfo* release = new ReleaseInfo(std::move(selectedRelease));
-        PostMessageW(target, kUpdateCheckFinishedMessage, 0, reinterpret_cast<LPARAM>(release));
+        PostOwnedPointer(target, kUpdateCheckFinishedMessage, 0, release);
     }).detach();
 }
 
@@ -264,14 +274,14 @@ void FocusClockApp::StartUpdateDownload() {
     std::thread([target, assetName = std::move(assetName), downloadUrl = std::move(downloadUrl), expectedDigest = std::move(expectedDigest), exeDirectory = std::move(exeDirectory)]() {
         UpdateDownloadResult* result = new UpdateDownloadResult();
         auto postLog = [target](const std::wstring& message, bool isError = false) {
-            PostMessageW(target, kUpdateLogMessage, isError ? 1 : 0, reinterpret_cast<LPARAM>(new std::wstring(message)));
+            PostOwnedPointer(target, kUpdateLogMessage, isError ? 1 : 0, new std::wstring(message));
         };
 
         std::wstring normalizedExpectedDigest = NormalizeSha256Digest(expectedDigest);
         if (!IsHexDigest(normalizedExpectedDigest, 64)) {
             result->ok = false;
             result->message = L"更新被取消：发布资产缺少 SHA-256 校验信息";
-            PostMessageW(target, kUpdateDownloadFinishedMessage, 0, reinterpret_cast<LPARAM>(result));
+        PostOwnedPointer(target, kUpdateDownloadFinishedMessage, 0, result);
             return;
         }
 
@@ -317,7 +327,7 @@ void FocusClockApp::StartUpdateDownload() {
         if (!hasFastestSource) {
             result->ok = false;
             result->message = L"版本获取失败，请检查网络";
-            PostMessageW(target, kUpdateDownloadFinishedMessage, 0, reinterpret_cast<LPARAM>(result));
+            PostOwnedPointer(target, kUpdateDownloadFinishedMessage, 0, result);
             return;
         }
 
@@ -383,7 +393,7 @@ void FocusClockApp::StartUpdateDownload() {
             DeleteFileW(outputPath.c_str());
             result->ok = false;
             result->message = L"下载失败，请检查网络";
-            PostMessageW(target, kUpdateDownloadFinishedMessage, 0, reinterpret_cast<LPARAM>(result));
+            PostOwnedPointer(target, kUpdateDownloadFinishedMessage, 0, result);
             return;
         }
 
@@ -420,13 +430,13 @@ void FocusClockApp::StartUpdateDownload() {
         if (!LaunchDetachedProcess(powershellExe, powershellArguments)) {
             result->ok = false;
             result->message = L"更新脚本启动失败";
-            PostMessageW(target, kUpdateDownloadFinishedMessage, 0, reinterpret_cast<LPARAM>(result));
+            PostOwnedPointer(target, kUpdateDownloadFinishedMessage, 0, result);
             return;
         }
 
         result->ok = true;
         result->message = L"下载完成，正在替换程序...";
-        PostMessageW(target, kUpdateDownloadFinishedMessage, 0, reinterpret_cast<LPARAM>(result));
+        PostOwnedPointer(target, kUpdateDownloadFinishedMessage, 0, result);
     }).detach();
 }
 

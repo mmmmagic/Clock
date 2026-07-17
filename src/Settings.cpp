@@ -12,6 +12,7 @@ void FocusClockApp::LoadAppSettings() {
 
     selectedMinutes_ = defaultFocusMinutes_;
     remainingSeconds_ = selectedMinutes_ * 60LL;
+    focusTotalSeconds_ = remainingSeconds_;
 }
 
 void FocusClockApp::SaveAppSettings() const {

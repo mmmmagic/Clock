@@ -290,6 +290,11 @@ LRESULT FocusClockApp::HandleMessage(HWND hwnd, UINT msg, WPARAM wparam, LPARAM 
             }
             return 0;
         }
+
+        if (wparam == VK_RETURN) {
+            StartFocus();
+            return 0;
+        }
         return 0;
 
     case WM_HOTKEY:
@@ -381,6 +386,7 @@ LRESULT FocusClockApp::HandleMessage(HWND hwnd, UINT msg, WPARAM wparam, LPARAM 
 
     case WM_DESTROY:
         ProcessPendingWhitelistLayout(true);
+        RestorePromotedWhitelistWindows();
         KillTimer(hwnd, kWhitelistLayoutTimer);
         RemoveFocusKeyboardHook();
         UnregisterHotKey(hwnd, kPanelHotkeyId);

@@ -82,6 +82,12 @@ void FocusClockApp::RebuildLayout() {
     if (panelOpen_ && !focusActive_) {
         int panelWidth = std::min(760, std::max(520, width - 96));
         int panelHeight = std::min(560, std::max(420, height - 120));
+        if (width < 760) {
+            panelWidth = std::max(0, width - 24);
+        }
+        if (height < 560) {
+            panelHeight = std::max(0, height - 24);
+        }
         int left = (width - panelWidth) / 2;
         int top = (height - panelHeight) / 2;
         panelBounds_ = RECT{ left, top, left + panelWidth, top + panelHeight };

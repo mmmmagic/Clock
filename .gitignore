@@ -1,4 +1,5 @@
 build/
+build-vs2022/
 *.exe
 *.obj
 *.pdb

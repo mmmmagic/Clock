@@ -128,14 +128,26 @@ bool HasActiveScheduledFocusRange() {
 int WINAPI wWinMain(HINSTANCE instance, HINSTANCE, PWSTR, int show) {
     SetProcessDPIAware();
 
+    HANDLE singleInstance = CreateMutexW(nullptr, FALSE, L"Local\\FocusClock.SingleInstance");
+    if (!singleInstance) {
+        return 1;
+    }
+    if (GetLastError() == ERROR_ALREADY_EXISTS) {
+        CloseHandle(singleInstance);
+        return 0;
+    }
+
     long long rerunResumeSeconds = 0;
     if (HasCommandLineSwitch(L"-rerun")) {
         rerunResumeSeconds = RerunRemainingSecondsFromSettings();
         if (rerunResumeSeconds <= 0 && !HasActiveScheduledFocusRange()) {
+            CloseHandle(singleInstance);
             return 0;
         }
     }
 
     focus_clock::FocusClockApp app;
-    return app.Run(instance, show, rerunResumeSeconds);
+    int result = app.Run(instance, show, rerunResumeSeconds);
+    CloseHandle(singleInstance);
+    return result;
 }
